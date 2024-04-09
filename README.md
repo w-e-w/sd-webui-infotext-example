@@ -4,11 +4,15 @@
 
 this is an example of how to read and write infotext when developing an extension for [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 
-three examples are provided [`basic`](scripts/infotext_example_basic.py) [`advance`](scripts/infotext_example_advance.py) and [`selectable script`](scripts/infotext_example_selectable_scripts.py).
+`Infotext` aka `PNG Info`, the purpose of which is to allow an image to be re-creatable by saving the generation parameters in the images itself.
 
-the explanation is written as inline comments
+Webui provides an interface to read and write infotext, but its usage is not well documented.
 
-read the [`basic`](scripts/infotext_example_advance.py) first then the [`advanced`](scripts/infotext_example_advance.py) or [`selectable scripts`](scripts/infotext_example_selectable_scripts.py) example or if applicable.
+This is an example in the form of extension with inline documentation on how to read and write infotext.
+
+Three examples are provided [`basic`](scripts/infotext_example_basic.py) [`advance`](scripts/infotext_example_advance.py) and [`selectable script`](scripts/infotext_example_selectable_scripts.py).
+
+Read the [`basic`](scripts/infotext_example_advance.py) first then the [`advanced`](scripts/infotext_example_advance.py) or [`selectable scripts`](scripts/infotext_example_selectable_scripts.py) example or if applicable.
 
 [`basic example`](scripts/infotext_example_advance.py) should work for simple extensions.
 
